@@ -1,0 +1,40 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#messages {
+    list-style: none;
+    padding: 0;
+}
+
+#messages li {
+    margin-bottom: 10px;
+}
+
+#chatbox {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Добавьте стили для имени пользователя */
+.username {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Добавьте стили для системных сообщений */
+.system-message {
+    color: #777777;
+    font-style: italic;
+}
